@@ -3,10 +3,24 @@ header {
     background-color: rgb(245, 245, 245);
 }
 
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
 .mainLogo {
     height: 100px;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.cornerLogo {
+    height: 75px;
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 20px;
 }
 
 h2 {
@@ -17,8 +31,12 @@ h2 {
     width: 100%;
     margin-top: 20px;
 }
+.mainAreaTitle {
+    color: white;
+    padding-top: 120px;
+}
 
-.homeArea {
+.homeArea, .aboutArea {
     margin: 15px;
 }
 
@@ -26,4 +44,56 @@ h2 {
     display: flex;
     justify-content: center;
     padding-top: 25px;
+    padding-right: 50px;
+}
+
+.aboutImg {
+    height: 30%;
+    width: 30%;
+
+    float: left;
+    padding-right: 15px;
+    margin-left: 30px;
+}
+
+.aboutWords {
+    font-size: 20px;
+}
+.moreAreas {
+    padding-top: 110px;
+    height: 800px;
+}
+
+.ourUs {
+margin-left: 30px;
+}
+#about {
+    background-color: lightblue;
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+}
+.left, .right {
+    margin-top: 70px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+.left {
+    padding-left: 30px;
+}
+
+.serviceStuff {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.reachOutInfo {
+    margin-top: 10%;
+    margin-left: 30%;
+
 }

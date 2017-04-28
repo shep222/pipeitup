@@ -7,24 +7,60 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-    <header>
+    <header class="topHeader">
+        <img class="cornerLogo" src="images/logo.png" alt="">
         <ul class="nav nav-pills">
             <li role="presentation" class="active rollTo"><a href="#home">Home</a></li>
-            <li role="presentation" class="rollTo"><a href="#skills">About</a></li>
-            <li role="presentation" class="rollTo"><a href="#about">Services</a></li>
-            <li role="presentation" class="rollTo"><a href="#portfolio">Contact Us</a></li>
+            <li role="presentation" class="rollTo"><a href="#about">About</a></li>
+            <li role="presentation" class="rollTo"><a href="#services">Services</a></li>
+            <li role="presentation" class="rollTo"><a href="#contact">Contact Us</a></li>
         </ul>
     </header>
 
     <section id="home" class="titles areas mainArea">
         <div class="homeArea roller">
-            <img  class="firstImage" src="images/logo.jpg" alt="">
+            <img  class="firstImage" src="images/logo.png" alt="">
             <img class="secondImage" src="images/mainArea.jpg" alt="">
         </div>
+    </section>
+
+    <section class="aboutArea moreAreas" id="about">
+        <h1 class="titles">About us</h1>
+        <img class="aboutImg" src="images/handshake.gif">
+
+        <p class="aboutWords">Hello and thank you for your potential interest in PipeItUp plumbing. We are an up and growing small business composed of 3 guys that total 35yrs of total combined plumbing experience. We believe that the customer comes first while providing quality at an affordable rate. We provide services around the clock 24hrs a day. We do have and provide emergency services. Our moto is &#34;Together we fit.&#34; We genuinely need each other. Customer satosfaction matters and we rely heavily on word of mouth. We make sure that our customers are satisfied before we leave the job and if there is not 100&#37; satisfaction then we will make it right. I want our partnership to last and the people that use our services to keep coming back. Try us once and we promise that you’ll be hooked. We pride ourselves on being on-time and honoring our price or quote. We also are a one stop shop. We can do it all from drains to re-pipes and major excavations. We have reasonable rates and exceptional service. We service as far north as Ft. Collins to as far south as Colo Springs.  We are licensed and insured.</p>
+    </section>
+    <section class="aboutArea moreAreas" id="services">
+        <h1 class="titles">Services</h1>
+        <div class="serviceStuff">
+
+        <ul class="left">
+            <li>Camera Inspection</li>
+            <li>Drain Cleaning</li>
+            <li>Hydro Jetting</li>
+            <li>Pumbling Repair</li>
+        </ul>
+        <ul class="right">
+            <li>Water Heater Replacement</li>
+            <li>Smoke Testing</li>
+            <li>Excavation</li>
+            <li>Second Opions</li>
+        </ul>
+    </div>
+    </section>
+    <section class="aboutArea moreAreas" id="contact">
+        <div class="reachOutInfo">    
+        <h1>(720)361-0200</h1>
+        <h1>pipeituptoday@gmail.com</h1>
+        <h1>1515 Wynkoop St # 360-72</h1>
+        <h1>Denver, CO  80202</h1>
+    </div>
     </section>
 
 </body>
