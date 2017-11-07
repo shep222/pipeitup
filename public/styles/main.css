@@ -1,6 +1,6 @@
 header {
     height: 100px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(3, 99, 167);
 }
 
 .topHeader {
@@ -57,6 +57,11 @@ li {
     padding-top: 25px;
     padding-right: 50px;
     width: 75%;
+<<<<<<< HEAD
+=======
+    list-style-type: none;
+
+>>>>>>> f2344bea2b5c764c9120baa756a85d3bd09d993e
 }
 
 .aboutImg {
@@ -80,7 +85,9 @@ li {
 margin-left: 30px;
 }
 #about {
-    background-color: lightblue;
+    background-color: rgb(210, 210, 210);
+    padding-bottom: 5%;
+    height: 70%;
 }
 
 .titles {
@@ -108,4 +115,11 @@ margin-left: 30px;
     margin-top: 10%;
     margin-left: 30%;
 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  font-size: 24px;
 }
