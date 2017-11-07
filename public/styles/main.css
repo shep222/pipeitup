@@ -1,11 +1,11 @@
 header {
     height: 100px;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(3, 99, 167);
 }
 
 .topHeader {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top: 0px;
 }
@@ -42,9 +42,12 @@ h2 {
 
 .nav{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 25px;
     padding-right: 50px;
+    width: 75%;
+    list-style-type: none;
+
 }
 
 .aboutImg {
@@ -68,7 +71,9 @@ h2 {
 margin-left: 30px;
 }
 #about {
-    background-color: lightblue;
+    background-color: rgb(210, 210, 210);
+    padding-bottom: 5%;
+    height: 70%;
 }
 
 .titles {
@@ -96,4 +101,11 @@ margin-left: 30px;
     margin-top: 10%;
     margin-left: 30%;
 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  font-size: 24px;
 }
