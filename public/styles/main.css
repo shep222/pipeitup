@@ -5,7 +5,7 @@ header {
 
 .topHeader {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top: 0px;
 }
@@ -40,11 +40,23 @@ h2 {
     margin: 15px;
 }
 
-.nav{
+ul {
+     list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    font-size: 24px;
+}
+
+.nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-top: 25px;
     padding-right: 50px;
+    width: 75%;
 }
 
 .aboutImg {
