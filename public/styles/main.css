@@ -32,19 +32,43 @@ header {
 .homeLower{
   display: flex;
   justify-content: center;
-  height: 50vh;
+  /*height: 50vh;*/
+  /*background-image: url('../images/thisImg.png');
+  background-size: contain;*/
+
+}
+
+.myBorder{
+    width: 70vw;
+    border-bottom: 2px solid black;
+}
+.myBorder2{
+    width: 70vw;
+    border-top: 2px solid black;
 }
 
 .lowerWords{
   color: rgb(3, 99, 167);
   font-size: 7vh;
-  padding-top: 9vh;
+  margin-bottom: 0px;
   font-family: 'Merriweather', serif;
+<<<<<<< HEAD
+=======
+  border-width: 50px;
+  margin: 25px;
+  /*background-image: url('../images/thisImg.png');*/
+>>>>>>> 1bad7b3bb377c07d6d3246b52a253a60591e59cd
 
 }
 
 .homeClass{
   height: 100vh;
+}
+
+.myCenter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .mainAreaTitle {
@@ -67,13 +91,13 @@ li {
     font-size: 24px;
 }
 
+
 .nav {
     display: flex;
     justify-content: space-around;
     padding-top: 25px;
     padding-right: 50px;
     width: 75%;
-
 }
 
 .aboutImg {
