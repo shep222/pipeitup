@@ -1,0 +1,36 @@
+[debug] [2017-11-09T05:22:03.476Z] ----------------------------------------------------------------------
+[debug] [2017-11-09T05:22:03.478Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-11-09T05:22:03.478Z] CLI Version:   3.14.0
+[debug] [2017-11-09T05:22:03.478Z] Platform:      darwin
+[debug] [2017-11-09T05:22:03.478Z] Node Version:  v7.10.0
+[debug] [2017-11-09T05:22:03.479Z] Time:          Wed Nov 08 2017 22:22:03 GMT-0700 (MST)
+[debug] [2017-11-09T05:22:03.479Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-09T05:22:03.493Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-09T05:22:03.493Z] > authorizing via signed-in user
+[debug] [2017-11-09T05:22:03.495Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-09T05:22:03.495Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/sqJxuZ3_3XfWujsMe7vBbXpHxf6X_8Ypx5N-HQFBpeA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Nov 08 2017 22:22:03 GMT-0700 (MST)
+[debug] [2017-11-09T05:22:03.680Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-09T05:22:03.688Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/pipeitup-b7c1c  
+ Wed Nov 08 2017 22:22:03 GMT-0700 (MST)
+[debug] [2017-11-09T05:22:04.010Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-09T05:22:04.011Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/pipeitup-b7c1c/tokens  
+ Wed Nov 08 2017 22:22:04 GMT-0700 (MST)
+[debug] [2017-11-09T05:22:04.907Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/johnshepler/theMainFile/PROJECTS/pipeItUp'...
+[info] 
+[debug] [2017-11-09T05:22:04.910Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/pipeitup-b7c1c  
+ Wed Nov 08 2017 22:22:04 GMT-0700 (MST)
+[debug] [2017-11-09T05:22:05.235Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-09T05:22:05.235Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/177113306142/clients/_:getWebAppConfig  
+ Wed Nov 08 2017 22:22:05 GMT-0700 (MST)
+[debug] [2017-11-09T05:22:05.534Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
