@@ -12,6 +12,7 @@ body{
     margin: 0px;
 }
 
+
 .topHeader {
     display: flex;
     justify-content: space-around;
@@ -152,7 +153,7 @@ li {
 display: flex;
 justify-content: center;
 color: rgb(47, 59, 121);
-font-size: 54px;
+font-size: 65px;
 }
 
 .ourUs {
@@ -161,12 +162,13 @@ margin-left: 30px;
 
 
 .left, .right {
-    margin-top: 70px;
+    margin-top: 0px;
     padding-right: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 .left {
     padding-left: 30px;
+    padding-right: 220px;
 }
 
 .serviceStuff {
@@ -175,6 +177,22 @@ margin-left: 30px;
     display: flex;
     justify-content: space-between;
 
+}
+.serviceName{
+  margin: 0px;
+  margin-left: 20px;
+  color: rgb(39, 99, 162);
+
+}
+.serviceImage{
+  display: flex;
+  margin-bottom: 30px;
+
+}
+.serviceIcon{
+  height: 50px;
+  width: 50px;
+  margin-top: 2px;
 }
 
 .reachOutInfo {
