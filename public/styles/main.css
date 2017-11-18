@@ -225,28 +225,33 @@ li {
 
 .contactLeft {
     width: 60vw;
-    background-color: red;
-}
-
-.myIcon {
-    /*margin-right: 80px;*/
-    margin-top: 8px;
 }
 
 .myForm {
     display: flex;
     justify-content: center;
 }
+.formBackgroundColor {
+  background-color: rgb(225, 225, 225);
+  padding: 25px;
+  border-radius: 13px;
+}
+.formWords {
+  font-size: 32px;
+}
 
 .contactRight {
     width: 40vw;
 }
+.centerUpperRight {
+  display: flex;
+  justify-content: center;
 
+}
 .rightUpper {
     height: 70vh;
-    /*background-color: pink;*/
-    /*margin-top: 20vh;*/
-
+    margin-top: 0px;
+    padding-right: 0px;
 }
 .centerUpperRight {
     display: flex;
@@ -255,29 +260,59 @@ li {
 
 
 .rightLower {
-    margin-top: 8%;
+    /*margin-top: 8%;*/
     height: 20vh;
-    background-color: blue;
     display: flex;
     justify-content: space-around;
 }
 
 .socialIcon {
-    padding-top: 8%;
-    width: 50px;
-    height: 50px;
+    margin-top: 8%;
+    width: 75px;
+    height: 75px;
 }
 
 .overallContact {
     display: flex;
 
 }
+.myColor {
+  background-color: rgb(112, 179, 201);
+  padding: 0px 10px 10px 10px;
+  border-radius: 7px;
+}
 
 .clearMargin {
-    margin-top: 25vh;
     padding-top: 10px;
+    margin-top: 15vh;
+}
+.contactInfo {
+  font-size: 32px;
 }
 
 .formControl {
     width: 500px;
+}
+.inputBox {
+  border-radius: 7px;
+  height: 32px;
+  width: 30vw;
+  margin-bottom: 8px;
+}
+.lastInputBox {
+  border-radius: 7px;
+  width: 30vw;
+  margin-bottom: 8px;
+  height: 125px;
+}
+.controlButton {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.submitButton {
+  background-color: rgb(112, 179, 201);
+  font-size: 28px;
+  border-radius: 7px;
+  padding: 0px 10px;
 }
