@@ -209,3 +209,58 @@ li {
   padding-bottom: 70px;
   color: rgb(66, 91, 169);
 }
+
+.contactSection {
+
+    display: flex;
+}
+.overallContact {
+    margin-left: 0px;
+}
+
+.contactLeft {
+    width: 60vw;
+    background-color: red;
+
+}
+
+.myForm {
+    display: flex;
+    justify-content: center;
+}
+
+.contactRight {
+    width: 40vw;
+}
+
+.rightUpper {
+    height: 70vh;
+    background-color: pink;
+    margin-top: 0px;
+}
+
+.rightLower {
+    height: 20vh;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialIcon {
+    margin-top: 8%;
+    width: 50px;
+    height: 50px;
+}
+
+.overallContact {
+    display: flex;
+
+}
+
+.clearMargin {
+    margin-top: 0px;
+}
+
+.formControl {
+    width: 500px;
+}
