@@ -155,6 +155,11 @@ justify-content: center;
 color: rgb(47, 59, 121);
 font-size: 65px;
 }
+.mycolor {
+    background-color: rgb(34,167,230);
+    padding: 0px 10px 10px 10px;
+    border-radius: 7px;
+}
 
 .ourUs {
 margin-left: 30px;
@@ -221,7 +226,11 @@ li {
 .contactLeft {
     width: 60vw;
     background-color: red;
+}
 
+.myIcon {
+    /*margin-right: 80px;*/
+    margin-top: 8px;
 }
 
 .myForm {
@@ -235,11 +244,18 @@ li {
 
 .rightUpper {
     height: 70vh;
-    background-color: pink;
-    margin-top: 0px;
+    /*background-color: pink;*/
+    /*margin-top: 20vh;*/
+
+}
+.centerUpperRight {
+    display: flex;
+    justify-content: center;
 }
 
+
 .rightLower {
+    margin-top: 8%;
     height: 20vh;
     background-color: blue;
     display: flex;
@@ -247,7 +263,7 @@ li {
 }
 
 .socialIcon {
-    margin-top: 8%;
+    padding-top: 8%;
     width: 50px;
     height: 50px;
 }
@@ -258,7 +274,8 @@ li {
 }
 
 .clearMargin {
-    margin-top: 0px;
+    margin-top: 25vh;
+    padding-top: 10px;
 }
 
 .formControl {
