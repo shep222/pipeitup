@@ -316,3 +316,29 @@ li {
   border-radius: 7px;
   padding: 0px 10px;
 }
+
+.tooltip {
+    /* position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;  */
+}
+
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 50vw;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
