@@ -154,7 +154,17 @@ display: flex;
 justify-content: center;
 color: rgb(47, 59, 121);
 font-size: 65px;
+margin-bottom: 0px
 }
+
+.titles2{
+display: flex;
+justify-content: center;
+color: rgb(47, 59, 121);
+font-size: 25px;
+margin-top: 0px;
+}
+
 .mycolor {
     background-color: rgb(34,167,230);
     padding: 0px 10px 10px 10px;
@@ -323,27 +333,15 @@ li {
     border-bottom: 1px dotted black;  */
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 50vw;
-    background-color: black;
-    color: #fff;
+    width: 40vw;
+    background-color: rgb(245,245,245);
+    color: black;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
+    border: 1px solid black;
 
     /* Position the tooltip text - see examples below! */
     position: absolute;
@@ -353,7 +351,3 @@ li {
 .showIt {
     visibility: visible !important;
 }
-
-/* .tooltip:hover .tooltiptext {
-    visibility: visible;
-} */
